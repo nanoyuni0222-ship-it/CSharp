@@ -26,7 +26,12 @@ long  : 64 Bit
 UnSignedInteger 부호가 없는 정수형 데이터 형식(0부터 양의 정수만 저장)
 byte :    8 Bit 0~225
 ushort : 16 Bit 0~65535
+<<<<<<< HEAD
 uint   :  32 Bit 0~42억
 ulong  :  64 Bit
+=======
+int   :  32 Bit 0~42억
+long  :  64 Bit
+>>>>>>> a7f042e98461757a110b08db429869fd22c06bc6
 
  */
