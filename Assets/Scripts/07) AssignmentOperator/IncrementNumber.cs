@@ -23,7 +23,7 @@ public class IncrementNumber : MonoBehaviour
         //축약해서 사용하기
         int x = 10;
         //x = x + 1;
-        x += 1;             // 1씩 증가 누정식
+        x += 1;             // 1씩 증가 누적식
         Debug.Log($"x:{x}");
 
         x -= 2;

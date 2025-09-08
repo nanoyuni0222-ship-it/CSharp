@@ -24,7 +24,7 @@ public class AssignmentDemo : MonoBehaviour
         i = j;
         j = temp;     
         
-        Debug.Log($"나중값 i: {i}, j:{j}");   //Q. 그냥 i랑 j를 바꾼 것이랑 값이 똑같음
+        Debug.Log($"나중값 i: {i}, j:{j}");   //Q. 그냥 i랑 j를 바꾼 것이랑 값이 똑같음  => 변수 지정 안할시 값이 손상될 수 있음1
     }
 }
 
