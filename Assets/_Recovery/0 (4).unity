@@ -442,6 +442,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1488699630}
   - component: {fileID: 1488699631}
+  - component: {fileID: 1488699632}
+  - component: {fileID: 1488699633}
+  - component: {fileID: 1488699634}
+  - component: {fileID: 1488699635}
+  - component: {fileID: 1488699636}
+  - component: {fileID: 1488699637}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -471,12 +477,87 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488699628}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa892f7dfbb9b7347b55fa089b377bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwitchNote
+  answer: 6
+--- !u!114 &1488699632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488699628}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 766786cc098bd2f46bb2148ec772acbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 0bce9f7a01176a749acd18d53f509d29, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WhileFibonacci
-  n: 10
+  m_EditorClassIdentifier: Assembly-CSharp::IfElseAll
+  a: 15
+--- !u!114 &1488699633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488699628}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db897a1ac69f46746aa01709f7afbf90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForDemo
+--- !u!114 &1488699634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488699628}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4156295c695544cac9e328e3254041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForNote
+--- !u!114 &1488699635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488699628}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8db21fbaa71c847a81ccc0261470e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForSum
+  n: 20
+--- !u!114 &1488699636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488699628}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8db21fbaa71c847a81ccc0261470e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForSum
+  n: 0
+--- !u!114 &1488699637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488699628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883b67e47c903f14394d3e4fd89c7dfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForCountdown
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

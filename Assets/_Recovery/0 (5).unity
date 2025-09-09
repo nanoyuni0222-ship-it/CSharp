@@ -441,7 +441,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1488699630}
-  - component: {fileID: 1488699631}
+  - component: {fileID: 1488699633}
+  - component: {fileID: 1488699634}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -464,7 +465,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1488699631
+--- !u!114 &1488699633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488699628}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bce9f7a01176a749acd18d53f509d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IfElseAll
+  a: 0
+--- !u!114 &1488699634
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -473,10 +487,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1488699628}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 766786cc098bd2f46bb2148ec772acbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 74343df4e30a3374192d9d9574bda658, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WhileFibonacci
-  n: 10
+  m_EditorClassIdentifier: Assembly-CSharp::WhileDemo
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -10,6 +10,8 @@ public class HelloPractice : MonoBehaviour
 
         Debug.Log("Hello Unity!\n                  123456789");
 
+
+        
     }
 
     // Update is called once per frame
@@ -18,6 +20,9 @@ public class HelloPractice : MonoBehaviour
         
     }
 }
+
+
+
 
 
 
