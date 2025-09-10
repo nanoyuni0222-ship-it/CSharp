@@ -442,7 +442,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1488699630}
   - component: {fileID: 1488699631}
-  - component: {fileID: 1488699632}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -472,23 +471,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488699628}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a950169449ccaed4badb6c74090709af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayTwoDescription
---- !u!114 &1488699632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488699628}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68241c6748cfd2c4d90cc9faeec7436d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bd59fd7e19739b4ea6e265a71bd60c9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayPractice
+  m_EditorClassIdentifier: Assembly-CSharp::BreakDemo
+  n: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
