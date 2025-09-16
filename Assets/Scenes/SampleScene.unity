@@ -444,8 +444,6 @@ GameObject:
   - component: {fileID: 1488699631}
   - component: {fileID: 1488699632}
   - component: {fileID: 1488699633}
-  - component: {fileID: 1488699634}
-  - component: {fileID: 1488699635}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -477,9 +475,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1488699628}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8c8838aae7cc164b8719b3810f74677, type: 3}
+  m_Script: {fileID: 11500000, guid: 7558236092dae0741bf07c5bc4ceeec0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClassNote
+  m_EditorClassIdentifier: Assembly-CSharp::ClassArray
 --- !u!114 &1488699632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,34 +487,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1488699628}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 223c270114f445147b8e4738a414cc2b, type: 3}
+  m_Script: {fileID: 11500000, guid: 19131deeb8d2b4f4883a5a54fe5b0ac7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClassRandom
+  m_EditorClassIdentifier: Assembly-CSharp::NameSpaceDemo
 --- !u!114 &1488699633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488699628}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1df601dcd00443d41a7b66bd6312c38a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClassLotto
---- !u!114 &1488699634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488699628}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85dce077191a6114db124546540d9121, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StringFunction
---- !u!114 &1488699635
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -525,9 +499,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1488699628}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41248c389f87d4f4f962bf692b633afb, type: 3}
+  m_Script: {fileID: 11500000, guid: aa5f39be5e6132642a3d6deab1b64f56, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StringClass
+  m_EditorClassIdentifier: Assembly-CSharp::NameSpaceNote
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
